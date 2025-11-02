@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-dmg-anchor-link {
+	border-bottom: 2px solid #999;
+	background-color: #f0f0f0;
+	padding: 1rem 1.5rem;
+	color: #333;
+	a {
+		color: #096d9e;
+	}
+
+	span.warning {
+		color: red;
+	}
+}
+
+.pagination-controls {
+	border-radius: 2px;
+	padding: 0.75rem 1rem;
+	background-color: #f0f0f0;
+	margin-top: 1rem;
+
+	p {
+		font-size: 0.75rem;
+		margin-bottom: 0.5rem;
+		margin-top: 0;
+	}
+}
+
+.dmg-anchor-link-menu-item {
+	margin: 2px 0;
+	background-color: #f0f5f7;
+	border-left: 4px solid transparent;
+	cursor: pointer;
+
+	&.is-selected {
+		background-color: #daedf5;
+		border-left-color: #007cba;
+	}
+}

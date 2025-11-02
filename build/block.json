@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/dmg-anchor-link",
+  "version": "0.1.0",
+  "title": "DMG Anchor Link",
+  "category": "widgets",
+  "description": "Add anchor links to your content",
+  "example": {},
+  "attributes": {
+    "selectedPost": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "title": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "supports": {
+    "color": {
+      "background": false,
+      "text": true,
+      "link": true
+    },
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "textdomain": "dmg-anchor-link",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
