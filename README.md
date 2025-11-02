@@ -2,6 +2,8 @@
 
 A high-performance WordPress plugin that provides a Gutenberg block for adding stylized anchor links to posts, plus a WP-CLI command for searching posts containing these blocks at scale.
 
+![DMG Anchor Link Block](read-more.png)
+
 ## Features
 
 ### Gutenberg Block
